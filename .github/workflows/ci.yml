@@ -21,3 +21,8 @@ jobs:
 
       - name: Lint
         uses: docker://github/super-linter:v4
+
+- uses: actions/setup-python@v4
+  with:
+    python-version: '3.x' # Version range or exact version of a Python version to use, using SemVer's version range syntax
+- run: python my_script.py
