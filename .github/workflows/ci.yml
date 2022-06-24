@@ -7,7 +7,7 @@ jobs:
   example:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "example"
+      - run: echo "hello world"
 
   build:
     name: Linter
